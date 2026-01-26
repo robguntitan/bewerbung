@@ -1,5 +1,5 @@
 # Robert Kartes
-##  Full-Stack Softwareentwickler
+## Full-Stack Softwareentwickler
 ### Schwerpunkt KI-Integration & KI-gestützte Nutzeranwendungen
 
 Anleitung
