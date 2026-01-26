@@ -1,7 +1,6 @@
 # Robert Kartes
 ##  Full-Stack Softwareentwickler
-### Schwerpunkt KI-Integration & 
-### KI-gestützte Nutzeranwendungen
+### Schwerpunkt KI-Integration & KI-gestützte Nutzeranwendungen
 
 Anleitung
 - Öffne `index.html` in einem Browser oder hoste die Datei lokal, um das meinen Lebenslauf zu sehen.
