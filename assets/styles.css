@@ -10,21 +10,27 @@
 * {
   box-sizing: border-box;
 }
+
 html,
 body {
   height: 100%;
   margin: 0;
   font-family:
+    Roboto,
     Inter,
     ui-sans-serif,
     system-ui,
     -apple-system,
     "Segoe UI",
-    Roboto,
     "Helvetica Neue",
     Arial;
   color: var(--text);
+  line-height: 1.5;
   background: var(--bg);
+
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 .container {
   max-width: 980px;
@@ -50,9 +56,17 @@ body {
   padding: 0;
   margin: 0 0 10px 0;
 }
+.summary p,
+li {
+  line-height: 1.5;
+}
 .contact li {
   margin: 6px 0;
   color: var(--muted);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
 }
 .contact a {
   color: var(--accent);
@@ -61,6 +75,7 @@ body {
 .actions {
   display: flex;
   gap: 8px;
+  justify-content: flex-end;
 }
 .actions button {
   background: transparent;
@@ -100,11 +115,16 @@ h2 {
   margin: 0;
 }
 .skill-grid li {
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.02), transparent);
+  background: rgba(0, 0, 0, 0.02);
+  border: 1px solid rgba(0, 0, 0, 0.05);
   padding: 8px;
   border-radius: 8px;
   color: var(--text);
   font-size: 0.95rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
 }
 
 .experience .job {
@@ -160,6 +180,10 @@ footer {
   button {
     display: none;
   }
+  a,
+  a:visited {
+    color: var(--muted) !important;
+  }
   .container {
     max-width: 100%;
     margin: 0;
@@ -168,5 +192,8 @@ footer {
   .card {
     box-shadow: none;
     border-radius: 0;
+  }
+  .profilimg {
+    width: 150px;
   }
 }

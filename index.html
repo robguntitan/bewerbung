@@ -1,228 +1,311 @@
 <!doctype html>
 <html lang="de">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width,initial-scale=1" />
-        <title>Lebenslauf — Robert Kartes | Full-Stack & KI-Integration</title>
-        <meta
-            name="description"
-            content="Lebenslauf / Bewerbung - Full-Stack Softwareentwickler mit Schwerpunkt KI-Integration"
-        />
-        <link rel="stylesheet" href="assets/styles.css" />
-    </head>
-    <body>
-        <div class="container">
-            <header class="header">
-                <div class="profile">
-                    <h1 class="name">Robert Kartes</h1>
-                    <p class="role">
-                        <strong> Full-Stack Softwareentwickler </strong>
-                        <br />Schwerpunkt KI-Integration & <br />KI-gestützte
-                        Nutzeranwendungen
-                    </p>
-                </div>
-                <div class="profilimg"></div>
-                <div class="contact">
-                    <ul>
-                        <li>
-                            <strong>Email:</strong>
-                            <a href="mailto:kartes.robert@gmail.com" id="email"
-                                >kartes.robert@gmail.com</a
-                            >
-                            <button id="copyEmail" title="E-Mail kopieren">
-                                📋
-                            </button>
-                        </li>
-                        <li><strong>Telefon:</strong> +49 176 80005843</li>
-                        <li><strong>Ort:</strong> Schiffweiler, Deutschland</li>
-                        <li>
-                            <strong>Github:</strong>
-                            <a href="#">github.com/robertkartes</a>
-                        </li>
-                        <li>
-                            <strong>LinkedIn:</strong>
-                            <a href="#">linkedin.com/in/robertkartes</a>
-                        </li>
-                    </ul>
-                    <div class="actions">
-                        <button id="toggleTheme">Theme</button>
-                        <button onclick="window.print()">Drucken</button>
-                    </div>
-                </div>
-            </header>
-
-            <main>
-                <section class="summary card">
-                    <h2>Kurzprofil</h2>
-                    <p>
-                        Erfahrener Full-Stack Entwickler mit starkem Fokus auf
-                        Integration von KI-Modellen in produktive
-                        Nutzeranwendungen. Erfahrung mit Node.js, Angular,
-                        TypeScript, Docker und Cloud-Plattformen. Begeistert von
-                        Generative AI, Prompt-Engineering und produktnahem
-                        MLOps.
-                    </p>
-                </section>
-
-                <section class="skills card">
-                    <h2>Fähigkeiten</h2>
-                    <ul class="skill-grid">
-                        <li>Node.js / Express</li>
-                        <li>Angular / TypeScript</li>
-                        <li>SQL, MariaDB, MongoDB</li>
-                        <li>
-                            LLM-Feintuning / PEFT (LoRA/LoRAq) &
-                            Instruction-Tuning
-                        </li>
-                        <li>Prompt-Engeneering</li>
-                        <li>
-                            GPT / LLM / Ollama Integration (OpenAI, Azure
-                            OpenAI, local Hosting)
-                        </li>
-                        <li>AI Drive User Interfaces</li>
-                        <li>LangChain / Retrieval Augmented Generation</li>
-                        <li>Docker & Containerization</li>
-                        <li>CI/CD (GitHub Actions, GitLab CI)</li>
-                        <li>Git & Branching Strategies</li>
-                        <li>Cloud: Hosting (Deployments)</li>
-                    </ul>
-                </section>
-
-                <section class="experience card">
-                    <h2>Berufserfahrung (Beispiele)</h2>
-                    <article class="job">
-                        <h3>Senior Full-Stack Developer — ExampleTech GmbH</h3>
-                        <p class="meta">2021 — heute · Berlin</p>
-                        <ul>
-                            <li>
-                                Leitung von Projekten zur Integration von LLMs
-                                in Kundenschnittstellen (Chatbots, Assistants,
-                                Dokumenten-Q&A).
-                            </li>
-                            <li>
-                                Entwicklung von Microservices (Node.js) und
-                                Frontends (Angular) mit starkem Fokus auf
-                                Sicherheit und Skalierbarkeit.
-                            </li>
-                            <li>
-                                Einführung von CI/CD Pipelines, Containerization
-                                mit Docker und K8s-Deployments.
-                            </li>
-                            <li>
-                                Implementierung von Retrieval-Pipelines (vector
-                                DBs) und Prompt-Engineering für bessere
-                                Nutzerergebnisse.
-                            </li>
-                        </ul>
-                    </article>
-
-                    <article class="job">
-                        <h3>AI Integration Engineer — InnovateAI</h3>
-                        <p class="meta">2018 — 2021 · Remote</p>
-                        <ul>
-                            <li>
-                                Prototyping und Produktion von KI-Features (NLP,
-                                Recommendation) in bestehenden SaaS-Produkten.
-                            </li>
-                            <li>
-                                Performance-Optimierung von Inferenz-Pipelines
-                                und Monitoring (MLOps Basics).
-                            </li>
-                            <li>
-                                Zusammenarbeit mit Data Scientists zur
-                                Operationalisierung von Modellen.
-                            </li>
-                        </ul>
-                    </article>
-
-                    <article class="job">
-                        <h3>Freelance Full-Stack Entwickler</h3>
-                        <p class="meta">2016 — 2018 · Diverse</p>
-                        <ul>
-                            <li>
-                                Lieferung von Web-Apps, API-Backends, und
-                                Integrationen (Webhook-Architekturen, OAuth,
-                                Payment).
-                            </li>
-                            <li>
-                                Beratung zu Cloud-Architekturen,
-                                Containerization und DevOps-Praktiken.
-                            </li>
-                        </ul>
-                    </article>
-                </section>
-
-                <section class="education card">
-                    <h2>Ausbildung (Beispielstationen — bitte anpassen)</h2>
-                    <ul class="education-list">
-                        <li>
-                            <h4>B.Sc. Informatik — Universität Musterstadt</h4>
-                            <p class="meta">2012 — 2015</p>
-                            <p>
-                                Schwerpunkte: Software-Engineering, Künstliche
-                                Intelligenz, Datenbanken. Abschlussarbeit:
-                                "Nutzung neuronaler Netze für
-                                Textklassifikation".
-                            </p>
-                        </li>
-                        <li>
-                            <h4>
-                                Weiterbildung: Machine Learning Engineering
-                                (Online-Kurs)
-                            </h4>
-                            <p class="meta">2019</p>
-                            <p>
-                                Praxisnaher Kurs zu Deployment von ML-Modellen,
-                                MLOps Grundlagen und Monitoring.
-                            </p>
-                        </li>
-                        <li>
-                            <h4>Berufsausbildung / Bootcamp (optional)</h4>
-                            <p class="meta">2010 — 2012</p>
-                            <p>Ausbildungsdetails hier anpassen.</p>
-                        </li>
-                    </ul>
-                </section>
-
-                <section class="projects card">
-                    <h2>Ausgewählte Projekte</h2>
-                    <ul>
-                        <li>
-                            <strong>AI-Assistent für Support:</strong>
-                            Integration von LLM + Retrieval zur Beantwortung von
-                            Kundenfragen mit Kontext aus internen Dokumenten.
-                        </li>
-                        <li>
-                            <strong>Knowledge-Graph-Backend:</strong> ETL,
-                            Vektor-Index, Node.js Microservice für semantische
-                            Suche.
-                        </li>
-                        <li>
-                            <strong>Portal-Modernisierung:</strong> Migration zu
-                            Angular, Containerization und CI/CD-Pipelines
-                            (Docker, GitLab CI).
-                        </li>
-                    </ul>
-                </section>
-
-                <section class="extras card">
-                    <h2>Weiteres</h2>
-                    <p>
-                        Sprachen: Deutsch, Englisch.
-                        <br />
-                        Hobbys: MTB, IoT, Klettern, Camping.
-                    </p>
-                </section>
-            </main>
-
-            <footer>
-                <p>
-                    Robert Kartes | kartes.rob@gmail.com | 0176 8000 5843 |
-                    Graulheck 22A 66578 Schiffweiler
-                </p>
-            </footer>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Lebenslauf — Robert Kartes | Full-Stack & KI-Integration</title>
+    <meta
+      name="description"
+      content="Lebenslauf / Bewerbung - Full-Stack Softwareentwickler mit Schwerpunkt KI-Integration"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="profilimg"></div>
+      <header class="header">
+        <div class="profile">
+          <h1 class="name">Robert Kartes</h1>
+          <p class="role">
+            <strong> Full-Stack Softwareentwickler </strong>
+            <br />Schwerpunkt KI-Integration & <br />KI-gestützte
+            Nutzeranwendungen
+          </p>
         </div>
+        <div class="contact">
+          <ul>
+            <li>
+              <strong>Email:</strong>
+              <div>
+                <a href="mailto:kartes.robert@gmail.com" id="email"
+                  >kartes.robert@gmail.com</a
+                >
+                <button id="copyEmail" title="E-Mail kopieren">📋</button>
+              </div>
+            </li>
+            <li><strong>Telefon:</strong> +49 176 80005843</li>
+            <li><strong>Ort:</strong> Schiffweiler, Deutschland</li>
+            <li>
+              <strong>Github:</strong>
+              <a href="#">github.com/robertkartes</a>
+            </li>
+            <li>
+              <strong>LinkedIn:</strong>
+              <a href="#">linkedin.com/in/robertkartes</a>
+            </li>
+          </ul>
+          <div class="actions">
+            <button id="toggleTheme">Theme</button>
+            <button onclick="window.print()">Drucken</button>
+          </div>
+        </div>
+      </header>
 
-        <script src="assets/script.js"></script>
-    </body>
+      <main>
+        <section class="summary card">
+          <h2>Kurzprofil</h2>
+          <p>
+            Erfahrener Senior-Full-Stack Entwickler mit starkem Fokus auf
+            Integration von KI-Modellen in produktive Nutzeranwendungen.
+            Erfahrung mit Node.js, Angular, TypeScript, Docker und
+            Cloud-Plattformen. Begeistert von Generative AI und
+            Prompt-Engineering.
+          </p>
+          <p>
+            <i
+              >"Technisch gibt es heute kein NEIN mehr, was man sich vorstellen
+              kann, geht!"</i
+            >
+          </p>
+        </section>
+
+        <section class="skills card">
+          <h2>Fähigkeiten</h2>
+          <hr />
+          <ul class="skill-grid">
+            <li>LLM-Feintuning / PEFT (LoRA/LoRAq) & Instruction-Tuning</li>
+            <li>
+              GPT / LLM / Ollama Integration (OpenAI, Azure OpenAI, local
+              Hosting)
+            </li>
+            <li>Node.js / Express</li>
+            <li>Angular / TypeScript</li>
+            <li>SQL, MariaDB, MongoDB, Vectordatenbanken</li>
+            <li>Prompt-Engineering</li>
+            <li>AI Driven User Interfaces</li>
+            <li>Crossplattform-Entwicklung (Ionic)</li>
+            <li>Responsive Design</li>
+
+            <li>Retrieval Augmented Generation (local)</li>
+            <li>Docker & Containerization</li>
+            <li>GitHub, GitLab</li>
+            <li>Branching Strategies</li>
+            <li>Cloud: Hosting (Deployments)</li>
+            <li>UNIX</li>
+          </ul>
+          <br />
+          <h2>Softskills</h2>
+          <hr />
+          <ul>
+            <li>Führungsverantwortung (Teamgröße bis 400 Mitarbeiter)</li>
+            <li>Lösungsorientiert</li>
+          </ul>
+        </section>
+
+        <section class="experience card">
+          <h2>Berufserfahrung</h2>
+          <article class="job">
+            <h3>CTO — ideastream GmbH</h3>
+            <p class="meta">
+              Dez. 2024 — heute · Stadtverband Saarbrücken, Saarland (Hybrid)
+            </p>
+            <ul>
+              <li>
+                Aufbau und Leitung der technischen Infrastruktur mit Fokus auf
+                KI-gestützte Anwendungen
+              </li>
+              <li>
+                Entwicklung von Full-Stack-Lösungen mit Node.js, Angular und
+                TypeScript
+              </li>
+              <li>
+                Integration und Feintuning von LLMs (Large Language Models) in
+                produktive Systeme
+              </li>
+              <li>
+                Implementierung von REST-APIs, Vektordatenbanken und
+                KI-System-Integration
+              </li>
+              <li>
+                Architektur und Entwicklung skalierbarer Webanwendungen mit
+                SQL-Datenbanken
+              </li>
+            </ul>
+          </article>
+
+          <article class="job">
+            <h3>Co-Founder & CTO — Rote Robben GmbH</h3>
+            <p class="meta">
+              Juli 2019 — heute · Stadtverband Saarbrücken, Saarland
+            </p>
+            <ul>
+              <li>
+                Mitgründung und technische Leitung des Unternehmens mit Fokus
+                auf innovative Softwarelösungen
+              </li>
+              <li>
+                Full-Stack-Entwicklung von Web- und Mobile-Anwendungen (Ionic
+                Framework, Angular, Node.js)
+              </li>
+              <li>
+                Entwicklung und Integration von KI-Modellen sowie Feintuning für
+                spezifische Anwendungsfälle
+              </li>
+              <li>
+                Design und Implementierung von REST-APIs, MySQL-Datenbanken und
+                Vektordatenbanken
+              </li>
+              <li>
+                Verantwortung für Software-Architektur, Backend- und
+                Frontend-Entwicklung sowie API-Design
+              </li>
+            </ul>
+          </article>
+
+          <article class="job">
+            <h3>CTO — Codigo GmbH</h3>
+            <p class="meta">
+              Juni 2023 — Jan. 2026 · Stadtverband Saarbrücken, Saarland
+              (Hybrid)
+            </p>
+            <ul>
+              <li>
+                Technische Leitung und Entwicklung sicherer Softwarelösungen
+              </li>
+              <li>
+                Full-Stack-Entwicklung mit Node.js, TypeScript und modernen
+                Frontend-Frameworks
+              </li>
+              <li>
+                Integration von KI-Systemen und Feintuning von Modellen für
+                unternehmensrelevante Anwendungen
+              </li>
+              <li>
+                Aufbau von REST-APIs und Arbeit mit SQL-Datenbanken und
+                Vektordatenbanken
+              </li>
+              <li>
+                Verantwortung für Software-Architektur und
+                Webanwendungsentwicklung
+              </li>
+            </ul>
+          </article>
+
+          <article class="job">
+            <h3>
+              IT-Prozessmanager — Torpedo Gruppe (Hedin Automotive Deutschland)
+            </h3>
+            <p class="meta">
+              Sept. 2016 — Juli 2019 · Stadtverband Saarbrücken, Saarland
+            </p>
+            <ul>
+              <li>
+                Management und Optimierung von IT-Prozessen im
+                Automotive-Bereich
+              </li>
+              <li>
+                Full-Stack-Entwicklung von Webanwendungen mit Node.js, MySQL und
+                TypeScript
+              </li>
+              <li>Entwicklung von REST-APIs und Backend-Lösungen</li>
+              <li>
+                Frontend-Entwicklung mit modernen Web-Technologien (CSS,
+                JavaScript)
+              </li>
+              <li>Datenbankdesign und -verwaltung sowie API-Entwicklung</li>
+            </ul>
+          </article>
+
+          <article class="job">
+            <h3>Abteilungsleiter Einkauf — ASMC GmbH</h3>
+            <p class="meta">März 2016 — Sept. 2016 · Schiffweiler, Saarland</p>
+            <ul>
+              <li>
+                Leitung der Einkaufsabteilung mit Verantwortung für
+                Beschaffungsprozesse
+              </li>
+              <li>
+                Optimierung von Einkaufsstrategien und Lieferantenmanagement
+              </li>
+            </ul>
+          </article>
+
+          <article class="job">
+            <h3>IT-Projektleiter — SAITOW AG (ALZURA AG)</h3>
+            <p class="meta">
+              Okt. 2013 — März 2016 · Kaiserslautern, Rheinland-Pfalz
+            </p>
+            <ul>
+              <li>
+                Leitung von IT-Projekten und Koordination von Entwicklungsteams
+              </li>
+              <li>Frontend-Entwicklung und Webanwendungsentwicklung</li>
+              <li>
+                Implementierung von Web-Lösungen mit CSS und modernen
+                Web-Technologien
+              </li>
+              <li>Projektmanagement und technische Beratung</li>
+            </ul>
+          </article>
+          <article class="job">
+            <h3>Logistik Offizier - Bundeswehr</h3>
+            <p class="meta">Okt. 2013 — Juni 2000 · Deutschland</p>
+            <ul>
+              <li>
+                Führung von Logistik-Einheiten und Koordination von
+                Versorgungsketten
+              </li>
+              <li>
+                Organisation und Durchführung von Aus- und Weiterbildungen für
+                Militär- und Zivilpersonal
+              </li>
+              <li>Aus- und Weiterbildung von Spezialeinheiten</li>
+            </ul>
+          </article>
+        </section>
+
+        <section class="education card">
+          <h2>Ausbildung</h2>
+          <ul class="education-list">
+            <li>
+              <h4>
+                Diplom Betriebswirtschaft —
+                Helmut-Schmidt-Universität/Universität der Bundeswehr Hamburg
+              </h4>
+              <p class="meta">2006 — 2010</p>
+              <p>
+                Schwerpunkte: Wirtschaftsinformatik, Organisation, Personal.
+              </p>
+            </li>
+          </ul>
+        </section>
+
+        <section class="extras card">
+          <h2>Weiteres</h2>
+          <p>
+            Sprachen: Deutsch, Englisch.
+            <br />
+            Familie: verheiratet, 2 Kinder (7J, 1.5J)
+            <br />
+            Hobbys: MTB, IoT, Klettern, Camping.
+          </p>
+        </section>
+      </main>
+
+      <footer>
+        <p>
+          Robert Kartes | kartes.rob@gmail.com | 0176 8000 5843 | Graulheck 22A
+          66578 Schiffweiler
+        </p>
+      </footer>
+    </div>
+
+    <script src="assets/script.js"></script>
+  </body>
 </html>
